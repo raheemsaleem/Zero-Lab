@@ -1,0 +1,760 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+/* Background color */
+--primary-color:#021624;
+--p-color:#616161
+}
+.bg-body-tertiary {
+    background-color: white !important;
+padding: 0px;
+}
+body{
+ background-color: aquamarine;
+}
+.nbp{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar>.container-fluid {
+    padding: 0px;
+    
+}
+.navbar-brand img{
+margin-left: 28px;
+}
+.n-btn{
+    color: white;
+    display: flex;
+padding: 23px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background:#021624;
+border-radius: 0px ;
+}
+.nav-link {
+    position: relative;
+color: var(--Black-Shades-Black-6, #757575);
+font-family: Akshar;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 188.235% */
+padding-top: 20px;
+padding-bottom: 20px;
+}
+  /* .nav-link:hover{
+    border-bottom: 2px #021624;
+ } */
+  .nav-link::after{
+    transition: all 0.2s;
+opacity: 0;
+height: 4px;
+width: 100%;
+background-color: #021624;
+position: absolute;
+bottom: 0;
+left: 0;
+margin-top: 10px;
+  }
+  .nav-link:hover::after{
+    content: '';
+    opacity: 1;
+}
+/* *************************************** Hero Section Start*************   */
+.hero-s{
+
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Rectangle\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .hero-s h1{
+        padding-top: 120px;
+        padding-left: 120px;
+        color: var(--Light-Color-white, #FFF);
+    font-family: "Titillium Web";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 120% */
+    }
+    .buton-hs .Lets{
+        display: flex;
+        padding: 4px 72px;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    color: #021624;
+    margin-left: 120px;
+    border-radius: 0px;
+    border: none;
+    }
+    .play-button .play{
+        margin-left: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        border-radius: 50px;
+        background-color: white;
+        border-right: solid 2px #021624;
+    }
+
+
+
+/* Empowering */
+.Empowering h3{
+    color: var(--Logo-1, #021624);
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+padding-top: 100px;
+}
+.Empowering{background-color: white;}
+.Empowering p{
+    color: var(--Black-Shades-Black-5, #616161);
+text-align: center;
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px; /* 160% */
+letter-spacing: 1px;
+}
+.Empowering .card{
+    border: none;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.Empowering .card img{
+width: 60px;
+height: 60px;
+padding-left: 24px;
+color: #021624;
+}
+/* .Our-Purpose start*/
+.Our-Purpose{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+.Our-Purpose h3{
+    color: var(--Logo-1, #021624);
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+}
+.Our-Purpose p{
+    color: var(--Black-Shades-Black-5, #616161);
+text-align: center;
+font-family: "Titillium Web";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px; /* 160% */
+letter-spacing: 1px;
+}
+.Our-Purpose img{
+    width: 80px;
+    height: 80px;
+    margin-left:100px ;
+margin-top: 20px;
+}
+ .Our-Purpose .card-title {
+    color: var(--Logo-1, #021624);
+text-align: center;
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 160% */
+text-transform: uppercase;
+ }
+.Our-Purpose .card{
+    margin-top: 10px;
+}
+
+
+/* **************************** Our Approach **********************88888 */
+
+/* .Our-Expertise */
+
+.Our-Expertise{
+padding-top: 40px;
+padding-bottom: 40px;
+background-color: #021624;
+}
+
+.Our-Expertise h1{
+    color: var(--Light-Color-white, #FFF);
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+}
+.Our-Expertise p{
+    color: var(--Light-Color-Lighter, #F0F0F0);
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px; /* 160% */
+letter-spacing: 1px;
+}
+.Our-Expertise ul{
+    list-style-type: none;
+}
+.Our-Expertise .text-exper p{
+    border: solid 1px white;
+padding: 24px;
+}
+/* .Our-Approach */
+.Our-Approach{
+    position: relative;
+    padding: 100px;
+}
+.opp-img img{
+    position: relative;
+}
+.op-card .card{
+    position: absolute;
+    width: 690px;
+height: 336px;
+flex-shrink: 0;
+    }
+.op-card .card-text{
+    overflow: hidden;
+color: var(--Black-Shades-Black-5, #616161);
+text-overflow: ellipsis;
+font-family: "Titillium Web";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 175% */
+letter-spacing: 1px;
+}
+/* our-approach-img */
+  .our-approach-img img{
+    position: relative;
+    width: 610px;
+height: 400px;
+flex-shrink: 0;
+  }
+  .our-approach-card .card{
+    position: absolute;
+    width: 690px !important;
+height: 336px !important;
+flex-shrink: 0;
+top: 100px;
+right: 125px !important;
+  }
+/* ************************Choose-zero ****************************** */
+.cz .card{
+    border-radius: 40px 40px 0px 40px;
+    height: 292px;
+    flex-shrink: 0;
+    overflow: hidden;
+    font-size: 16px;
+      }
+  .Choose-zero .img-z{
+    border-radius: 0px 40px 40px 40px;
+    width: 100%;
+    height: 80px;
+  }
+  .Choose-zero .img-z img{
+   padding: 20px;
+flex-shrink: 0;
+    padding: 10px;
+    background-color: #F0F0F0;
+    border-radius: 0px 40px 40px 40px;
+ margin-bottom: 20px;
+  }
+  .Choose-zero .img-z p{
+
+margin-left: 5px;
+  }
+ .cz .card{
+    background: var(--Gradient, linear-gradient(135deg, #021624 0%, #092030 100%)); }
+.zc .card{
+    background: var(--logo-2, #5E1914);
+    height: 292px;
+}
+.zc .card{
+    border-radius: 40px 40px 0px 40px;
+}
+.Choose-zero{
+    padding-top: 100px;
+}
+
+/* *******************************over virsion ************************/
+.over-version{
+    padding-top: 132px;
+}
+.all{
+    color: var(--Gray-Color-Gray-2, #9E9E9E);
+font-family: Akshar;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 160% */
+}
+.all-bg{
+    color: var(--Logo-1, #021624);
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+}
+.over-img{
+    padding-top: 40px;
+}
+.Our-Belief{
+    padding-top: 60px;
+}
+
+.Pathways{
+    padding-top: 40px;
+}
+.over-card{
+    padding-bottom: 100px;
+}
+.over-card .card{
+    margin-top: 10px;
+}
+.all-p{
+    color: var(--Black-Shades-Black-5, #616161);
+font-family: "Titillium Web";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+}
+.h-h3{
+    color: var(--Logo-1, #021624);
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 160% */
+text-transform: uppercase;
+}
+
+/* *********************** Sofware Eng ****************************/
+.soft-eng{
+    padding-top: 132px;
+}
+/* Blueprinting */
+.Blueprinting{
+    padding-top: 40px;
+}
+.doc-style{
+    padding-top: 40px;
+}
+.Blueprinting{
+padding-top: 40px;
+}
+/********************** a-comunication ************************** */
+.a-comunication{
+    position:absolute;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Ree\ 1.png);
+    opacity: 0.8;
+    /* background: var(--Gradient-1, linear-gradient(135deg, #5E1914 0%, #021624 100%)); */
+}
+.banner-section{
+    padding-top: 72px;
+}
+.a-comunication h3{
+    padding-top: 163px;
+    padding-left: 120px;
+}
+.a-comunication p{
+    color: #FFFFFF;
+    padding-left: 120px;
+}
+.how-work{
+position: relative;
+margin-top: 447px;
+}
+
+/* ****************************** footer ***********************************/
+footer{
+    position: relative;
+    width: 100%;
+bottom: 0px; 
+top: 0px;
+background-color: #F0F0F0; 
+margin-top: 100px;
+}
+footer .footer-img img{
+    padding-top: 80px;
+}
+footer .footer-p{
+    padding: 24px;
+    color: #616161;
+}
+ .rounded-end-circle{
+    border-top-right-radius:50px !important;
+    border-bottom-right-radius:50px !important;
+}
+.footer-hd{
+    padding-top: 136px;
+
+}
+.unorder-fo ul{
+    line-height: 28px; /* 175% */
+    border-left: 1px solid;
+list-style-type: none;
+}
+.zero-lab{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.why-Choose{
+    padding-top: 100px;
+}
+.why-Choose h1
+{
+ 
+    color: var(--Logo-1, #021624);
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 52px; /* 130% */
+} 
+
+/********************************** Services ****************************** */
+.System-card .card {
+    width: 295px !important;
+    height: 295px !important;
+}
+.main-card{
+    display: flex;
+    gap: 20px;  
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.serv-eng{
+    padding-top: 132px;
+}
+
+/********************** industry-insight***********************8 */
+.industry-insight{
+padding-top: 132px;
+}
+.industry-insight h1{
+    padding-top: 8px;
+}
+#all{
+    color:  #616161;
+}
+/* ========================== */
+/* ******************************* indestory ************************ */
+.indus-img img{
+    height: 500px;
+    padding-top: 40px;
+} 
+/* ******************** Trending *************************************** */
+.Trending{
+    padding-top: 100px;
+}
+.treding-card {
+    padding-top: 40px;
+}
+.treding-card .card{
+    width: 400px;
+    height: 492px;
+}
+.in-card{
+    color: var(--logo-2, #5E1914);
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 160% */
+}
+.in-para{
+    font-family: Akshar;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 175% */
+}
+
+/* ***************************** Blog ********************************* */
+.indus-img{
+    height: 500px;
+    background-image: url(../img/mo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blog-para{
+    color: var(--Light-Color-white, #FFF);
+font-family: "Titillium Web";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px; /* 160% */
+}
+.blog-start .all-bg{
+padding-top: 348px;
+}
+.sw{
+    width: 100%;
+    height: 240px;
+    background-image: url(../img/sw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.hw{
+    width: 100%;
+    height: 240px;
+    background-image: url(../img/how\ worl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+
+}
+.blog-sw{
+    color: var(--Light-Color-white, #FFF);
+font-family: "Titillium Web";
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 142.857% */
+padding-top: 138px !important;
+}
+
+/* ************************ OUR-Commitment *********************** */
+.OUR-Commitment{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* ***************************** Responcive ************************** */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-link{
+        text-align: center;
+    }
+    .footer-hd h5{
+        font-size: 12px;
+    }
+    .footer-hd ul{
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .hero-s h1{
+        font-family: "Titillium Web";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px; /* 120% */
+    margin-left: -93px;
+    }
+    .hero-s h1{
+        padding-top: 120px;
+        padding-left: 100px;
+        color: var(--Light-Color-white, #FFF);
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 120% */
+    }
+    .buton-hs .Lets{
+        display: flex;
+        padding: 4px 5px;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    color: #021624;
+    margin-left: 10px;
+    border-radius: 0px;
+    border: none;
+font-size: 12px;    
+}
+.hero-s{
+    height: 350px;
+}
+.navbar-brand img {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    }
+    .a-comunication h3{
+        font-size: 22px;
+        line-height: 30px;
+        margin-left: -70px;
+    }
+    .a-comunication p{
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: -70px;
+    }
+    .a-comunication{
+        height: 500px;
+    }
+    .banner-section{
+        padding-top: 60px;
+    }
+    .cz{
+        margin-top: 10px; 
+     }
+     .zc{
+         margin-top: 10px; 
+      }
+      .System-card .card{
+        margin-top: 10px;
+      }
+      
+    .treding-card .card{
+        width: 100% !important;
+        height: 492px !important;
+    }
+    .treding-card{
+        padding-top: 10px;
+    }
+    .industry-insight h1{
+        font-size: 35px;
+    }
+    
+.our-approach-img img{
+    width: 100% !important;
+
+  }
+  .our-approach-card .card{
+    width: 100% !important;
+right: 0px !important;
+  }
+
+   }
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav-link{
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .nav-link{
+        text-align: center;
+    }
+    .Our-Purpose .card{
+        width: 21rem !important;
+    }
+    .hero-img h1{
+padding-top: 128px;    
+    color: var(--Light-Color-white, #FFF);
+    font-family: "Titillium Web";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    margin-left: -28px;
+    }
+    .opp-img img{
+        width: 500px;
+    height: 400px;
+    flex-shrink: 0;
+    }
+    .Our-Approach .card{
+        width: 500px;
+    height: 336px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .navbar-brand img {
+padding-top: 4px;
+padding-bottom: 4px;
+}
+.banner-section{
+    padding-top: 60px;
+}
+.cz{
+   margin-top: 10px; 
+}
+.zc{
+    margin-top: 10px; 
+ }
+
+ .System-card    .card {
+    width: 338px !important;
+    height: 295px !important;
+}
+.treding-card .card{
+    width: 336px;
+    height: 492px;
+}
+.treding-card{
+    padding-top: 10px;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.Our-Purpose .card{
+    width: 18rem !important;
+}
+.industry-insight .all-bg{
+    font-size: 30px;
+line-height: 50px;
+
+}
+.treding-card .card{
+    width: 296px;
+    height: 492px;
+}
+.our-approach-img img{
+    width: 396px !important;
+
+  }
+  .our-approach-card .card{
+   
+    width: 470px !important;
+  }
+  .our-approach-card p{
+    font-size: 13px;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.Our-Purpose .card{
+    width: 21rem !important;
+    
+} 
+.industry-insight .all-bg{
+    font-size: 40px;
+}
+.our-approach-img{
+    width: 610px !important;
+
+  }
+  .our-approach-card .card{
+   
+    width: 690px !important;
+  }
+}
+
+
